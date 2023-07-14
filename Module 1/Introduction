@@ -22,3 +22,23 @@ Command
 
 
 =========================================================================
+Eclipse:
+
+Workspace
+JRE -> System Library -> Java Runtime Environment
+
+
+Program's execution is starts with main method
+
+Access Modifier/Specifier:
+
+public
+private
+protected
+
+classes - First letter capital- case Sensitive
+
+=================================================================
+Assignment->Module wise
+Project-> Project
+Assesment -> 
