@@ -1,0 +1,52 @@
+variables:value store
+
+data type:
+
+integer-> int -> numeric value
+float-> float ->decimal value -> 4 byte
+character->char -> 'T'
+double-> double -> decimal value-> 8 byte
+String-> String -> "tops"
+boolean-> true,false
+long->lengthy integer
+blob -> images store
+
+Conditional statement:
+
+if
+else if
+else
+nested if
+switch,case,break
+
+
+= [Assign]
+== [Compare]
+
+int-data type
+Integer-wrapper class
+
+Loop:
+For
+While
+Do while
+for each
+Entry control loop
+for(initialization;condition;incre/decre)
+{
+	statement//body part
+}
+
+while
+
+
+Exit Control Loop:
+Do while
+
+70-A
+60-B
+50-C
+40-D
+
+If
+Else If
