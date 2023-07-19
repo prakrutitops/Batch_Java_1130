@@ -1,0 +1,40 @@
+How Can we Create Object?
+
+Classname objname = new Classname();
+
+OOP -> Object Oriented Programming
+
+OOP Features:
+
+1)Object: Any Entity which has own state and behaviour that is called an object
+ex: pen,paper etc..
+
+2)Class: Collection of objects that is called class
+ex: Human body
+
+3)Abstraction: Hiding Internal details and showing functionalities
+ex: Login Page
+
+4)Encapsulation: Wrapping up of data or binding of data
+ex: Capsule
+[Model Class- Data get and set]
+
+5)Inheritance: When one object acquire all the proeprties and behaviour of parent class
+ex:
+Father -> Son
+
+Parent -> Child
+Super -> Sub
+Base ->Derived
+
+6)Polymorphism: Many ways to perform anything
+ex:
+1)Method Overloading
+2)Method Overriding
+
+Constructor:When Method Having a same as a classname
+
+Types of Constructor
+1)Default -> Without Arguments[Parameters]
+2)Parameterized 
+3)Copy
