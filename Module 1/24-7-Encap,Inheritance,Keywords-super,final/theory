@@ -1,0 +1,49 @@
+Encapsulation: Wrapping up of data or binding of data
+
+Database -> 
+set//setter
+get//getter
+
+Flow 
+
+UI -> 
+Model ->
+Db-> QUERY
+
+MVC Architecture/Structure
+
+M->Model
+V->View
+C->Controller
+======================================================================
+Task: 
+input->tops
+output->tops4
+
+TC:
+Functions
+Loop
+Condition
+Pointer
+Variable Declare
+
+======================================================================
+Inheritance:When One Object Acquire all the proeprties and behaviour of
+parent class
+
+Types of Inheritance
+1)Single
+2)Multilevel
+3)Multiple-> Not Supported->Diamond Problem
+4)Hierarchical
+5)Hybrid
+
+parent - child
+super -sub
+base - derived
+
+interface -> collection of abstract methods
+abstract method -> a method without body part
+===================================================
+Keyword:final,super
+
