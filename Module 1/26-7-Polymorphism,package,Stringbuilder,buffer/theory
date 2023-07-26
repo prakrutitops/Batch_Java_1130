@@ -1,0 +1,20 @@
+Polymorphism:Many Ways to perform anything
+
+1)Method Overloading:When two ore more methods having a same name but number of parameters are diffrent
+
+2)Method Overriding:When two or more methods having a same name and number of parameters are also same
+
+Package Management:
+
+Access Modifier:
+Public
+Private
+Protected
+No Modifier
+
+String:
+1)StringBuilder:Immutable[can not change]
+2)StringBuffer:Mutable[can change]
+
+
+HJavalo
