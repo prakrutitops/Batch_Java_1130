@@ -1,0 +1,45 @@
+try
+catch
+
+throw
+-> throw any error 
+-> throw will use inside method
+
+throws
+->not included in body
+
+
+finally
+
+Thread:Handle the process
+
+1)Single Thread
+2)Multiple Thread
+
+Class:Thread
+Interface:Runnable
+
+Thread Lifecycle
+1)Init
+2)Start
+3)Run
+4)Stop
+5)Destroy
+
+synchronization -> thread synchronized
+
+sending hii
+hii sent
+sending byee
+byee sent
+
+GUI ->swing,AWT
+
+
+FileOutputStream
+FileInputStream
+
+Your Firstname is: 
+
+
+
