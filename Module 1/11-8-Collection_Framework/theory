@@ -1,0 +1,38 @@
+
+Collection Framework:
+
+add
+addAll
+remove
+removeAll
+retainAll
+
+
+3 Interface
+
+1)List:
+
+ a)ArrayList ->Array Format Follow
+ b)LinkedList:
+	1)Single linkedlist
+	2)Doubly linkedlist
+
+2)Set:
+
+ a)HashSet
+ b)LinkedHashSet
+
+3)Map:
+
+ a)HashMap
+
+4)Queue:
+  
+
+
+Other Classes:
+Vector
+Stack
+
+[]
+{}
