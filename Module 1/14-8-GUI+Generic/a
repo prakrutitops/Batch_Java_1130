@@ -1,0 +1,43 @@
+Generics Method:
+Generic Generator
+<> -> Generic Type
+ArrayList<String>arraylist = new ArrayList<String>();
+
+Interface:
+
+1)Comparable
+2)Comparator
+
+Order
+Step 1:
+25
+21
+45
+34
+
+Step 2:
+21
+25
+45
+34
+
+Step 3:
+21
+25
+34
+45
+
+null
+empty
+
+
+final
+finally
+finalize
+
+enumeration -> enum
+
+while(true)
+c+=a//c=c+a
+hours-=12
+
