@@ -1,0 +1,12 @@
+Frame 
+
+Click me -> Button -> 
+
+Required Rows : TextField-> 5
+
+Automatic 5 TextField
+int id = t[i]
+
+Button-> Click
+
+create table details (id int primary key autoincrement,name varchar(255),surname varchar(255))
