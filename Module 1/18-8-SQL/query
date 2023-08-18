@@ -1,0 +1,86 @@
+SQL ->Structured query language
+MYSQL -> Database
+
+Types of commands in MYSQL
+
+1)DDL:Data Definition Language
+-> create,alter,drop,truncate,rename
+
+2)DML:Data Manipulation Language
+->insert,update,delete
+
+3)DQL:Data Query Language
+->select
+
+4)DCL:Data Control Language
+->rollback,commit
+
+
+Sql fUNCTIONS
+1)Aggregate 
+2)Scalar
+
+Agrregate Functions:
+MAX
+MIN->SELECT MIN(product_price) FROM products
+SUM
+AVG
+COUNT
+FIRST-> SELECT product_price FROM products LIMIT 1;    
+LAST-> SELECT * FROM products ORDER BY product_price DESC LIMIT 1;  
+
+Scalar Function:
+UCASE
+LCASE->SELECT LCASE(product_name) FROM products
+LEN->
+MID->SELECT MID(NAME,1,4) FROM Students; 
+NOW->SELECT product_price, NOW() AS DateTime FROM products
+ROUND->SELECT ROUND(MARKS,0) FROM table_name;
+FORMAT->SELECT NAME, FORMAT(Now(),'YYYY-MM-DD') AS Date FROM
+Students;  
+
+View->CREATE VIEW doctorview As SELECT Dr_Name,Speciality,Location FROM doctors
+Procedure->
+
+DELIMITER //
+	
+    CREATE PROCEDURE updateproc (INOUT myid int)
+    
+    BEGIN
+    
+    	UPDATE products set product_name = 'Xyz123' WHERE id =myid;
+    
+    END //
+    
+DELIMITER ;
+
+
+
+Trigger->
+
+BEFORE INSERT
+AFTER INSERT
+BEFORE UPDATE
+AFTER UPDATE
+BEFORE DELETE
+AFTER DELETE
+
+
+Constraint Keys:
+Primary Key-> 
+Unique Key-> 
+Foreign Key->
+
+
+
+JOINS->
+1)INNER JOIN->SELECT * FROM location INNER JOIN products on location.id = products.id
+2)LEFT JOIN->SELECT * FROM location LEFT JOIN products on location.id = products.id
+3)RIGHT JOIN->SELECT * FROM location RIGHT JOIN products on location.id = products.id
+4)FULL JOIN-> SELECT * FROM location RIGHT JOIN products on location.id = products.id
+UNION
+SELECT * FROM location LEFT JOIN products on location.id = products.id
+
+
+
+
