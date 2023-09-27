@@ -1,0 +1,42 @@
+Model
+->getter-setter
+faculty:"A"
+
+
+First Use Scanner For Three Rold id
+
+Switch-case
+1,2,3
+
+case 1:
+
+Scanner get 
+
+roll_no->int
+name->String
+
+ArrayList<Model>arr =new ArrayList();
+
+arr.add("",101)
+
+try
+{
+}
+catch(Exception e)
+{
+	syso("Data Does not Match ")
+}
+
+
+1
+2
+3
+4
+
+
+
+
+ArrayList<Model>arr =new ArrayList();
+m.getfaculty("A");
+
+
