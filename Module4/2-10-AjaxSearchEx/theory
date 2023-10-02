@@ -1,0 +1,24 @@
+onblur event this function will be called searchInfo()
+
+document.vinform.name.value is get value and stored into variable
+whis is passed to AjaxSearch2.jsp
+
+XMLHttpRequest
+For asynchronous communication between client and server
+
+It performs following operations:
+Sends data from the client in the background
+Receives the data from the server
+Updates the webpage without reloading it.
+
+onReadyStateChange
+It is called whenever readystate attribute changes. It must not be used with synchronous requests
+readyState
+represents the state of the request. It ranges from 0 to 4.
+0 UNOPENED open() is not called.
+1 OPENED open is called but send() is not called.
+2 send() is called
+3 LOADING Downloading data; responseText holds the data.
+4 DONE The operation is completed fully.
+reponseText
+returns response as text.
