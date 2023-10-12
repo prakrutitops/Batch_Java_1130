@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+	<script type="text/javascript">
+
+		function notempty(elem, msg)
+		{
+
+			if(elem.value.length == 0)
+	         {
+				alert(msg);
+				elem.focus();
+				return false;
+			}
+
+			return true;
+		}
+
+	</script>
+
+
+</head>
+<body>
+
+
+
+	<form>
+		
+		<p>
+			Enter Your Name: <input type="text" id="req1">
+		</p>
+	
+		<p>
+			<input type="submit" value="Go" onclick="notempty(document.getElementById('req1'),'Please Enter Your Name')"/>
+		</p>
+		
+	</form>
+
+
+</body>
+</html>

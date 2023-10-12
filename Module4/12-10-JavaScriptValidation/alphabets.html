@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+	<script type="text/javascript">
+
+		function checkalphabet(elem, msg)
+		{
+
+				var alphabet = /^[a-zA-Z]+$/;
+
+				if(elem.value.match(alphabet))
+				{
+
+					return true;
+					
+				}
+				else
+				{
+
+					alert(msg);
+					elem.focus();
+					return false;
+					
+				}
+			
+
+			
+		}
+
+	</script>
+
+
+</head>
+<body>
+
+
+
+	<form>
+		
+		<p>
+			Enter Your Alphabets: <input type="text" id="req1">
+		</p>
+	
+		<p>
+			<input type="submit" value="Go" onclick="checkalphabet(document.getElementById('req1'),'Please Enter Only Alphabets')"/>
+		</p>
+		
+	</form>
+
+
+</body>
+</html>
