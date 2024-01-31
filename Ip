@@ -1,0 +1,47 @@
+Validations
+Ajax
+Practical :
+1)
+Crud
+
+Signup:
+
+Image
+Firstname
+Lastname
+Email
+Hobbies->checkbox
+Gender->radiobutton
+Password
+Confirm Password
+
+Signup
+
+
+Login:
+
+Email
+Password
+
+Login
+
+
+Profile:
+
+Image
+Firstname
+Lastname
+Email
+Hobbies->checkbox
+Gender->radiobutton
+Password
+Confirm Password
+
+Update
+
+
+Logout
+
+
+2)Jsp Crud Operation
+
